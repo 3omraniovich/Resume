@@ -1,0 +1,355 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: 2000px;
+}
+.container
+{
+    margin: auto;
+    width: 1150px;
+}
+.clear
+{
+    clear: both;
+}
+
+/* start slider */
+.slider
+{
+    width: auto;
+    height: 640px;
+    background-image: url("images/cover2.png");
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+}
+.slider #logo
+{
+    float: left;
+    font-size: 40px;
+    color: #FFF;
+    margin: 50px;
+}
+.slider #logo span
+{
+    color: #FF0;
+}
+.slider #menu
+{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-image: url("images/1498034046_menu-24.png");
+    background-size: cover;
+    margin: 50px;
+}
+.slider .intro
+{
+    padding-top: 250px;
+}
+.slider h1
+{
+    border-top: 3.5px solid #FFF;
+    border-bottom: 3.5px solid #FFF;
+    margin: auto;
+    padding: 20px;
+    width: 220px;
+    
+}
+.slider p
+{
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* end slider */
+
+/* start section1 */
+
+.section1
+{
+    padding: 35px;
+    background-color: #FFF;
+    height: 500px;
+    margin-bottom: 0px;
+}
+.section1 img
+{
+    margin-left: 35px;
+    width: 30%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+.section1 .about
+{
+    padding: 50px;
+}
+.section1 .about h2 ,.section1 .about p
+{
+    color: #737373;
+    line-height: 1.5;
+    
+}
+.section1 .about button
+{
+    margin-top: 25px;
+    background-color: #FE2B4B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/* end section1 */
+
+/* start section2 */
+
+.section2
+{
+    padding: 15px;
+    margin-top: 0px;
+    height: 600px;
+    color: #737373;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.section2 .first, .second ,.third ,.fourth
+{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin-left: 30px;
+}
+.section2 .work img
+{
+    margin-top: 80px;
+    width: 60px;
+    height: 60px;
+}
+.first
+{
+  background-color: #11C6FD;
+}
+.second
+{
+  background-color: #845AEC;
+}
+.third
+{
+  background-color: #002454;
+}
+.fourth
+{
+  background-color: #FF2B4B;
+}
+ .section2 h2 
+{
+  text-align: center;
+  color: white;
+  font-family: system-ui;
+}
+
+/* end section2 */
+
+/* start section3 */
+
+.section3
+{
+    text-align: center;
+    height: 500px;
+    background-image: url("images/cover3.png");
+    padding-top: 75.5px;
+    color: #FFF;
+}
+.section3 .work ,.education
+{
+    width: 35%;
+    background-color: aliceblue;
+    height: 400px;
+    margin: auto;
+    margin: 3px;
+    display: inline-block;
+    background-color: #2c3e50;
+    opacity: .7;
+    text-align: left;
+    padding-left: 28px;
+}
+
+/* end section3 */
+
+/* start section4 */
+
+.section4
+{
+    padding: 40px;
+    color: #737373;
+    text-align: center;
+    height: 550px;
+    background-color: #FFF;
+}
+.section4 .my-works img
+{
+    width: 210px;
+    height: 210px;
+    margin: 2px;
+}
+.section4 .my-works .long-img
+{
+    width: 428px;
+}
+
+/* end section4 */
+
+/* start section5 */
+
+.section5
+{
+    color: #737373;
+    background-color: #DFDFEB;
+    text-align: center;
+    padding-top: 30px;;
+    overflow: hidden;
+}
+.section5 .info ,.photo
+{
+    width: 50%;
+}
+.section5 .info
+{
+    float: left;
+    padding-top: 50px;
+    padding-left: 80px;
+    text-align: left;
+    width: 40%;
+    line-height: 1.4;
+}
+.section5 .info span
+{
+    display: block;
+    font-size: 80px;
+    color: #6E809D;
+}
+.section5 .photo
+{
+    float: right;
+}
+.section5 .photo img
+{
+    width: 43%;
+    height: 30%;
+}
+
+/* end section5 */
+
+/* start section6 */
+
+.section6
+{
+    text-align: center;
+    height: 500px;
+    background-image: url("images/cover4.png");
+    background-size: cover;
+    padding-top: 75.5px;
+    color: #FFF;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.section6 .submit, .data
+{
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+.section6 .submit
+{
+    margin-left: 155px;
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #2c3e50;
+    opacity: .7;
+}
+.section6 .data
+{
+    float: right;
+    margin-right: 155px;
+}
+.section6 .submit input, textarea
+{
+    background-color: #2c3e50;
+    opacity: .7;
+    color: #FFF;
+    width: 350px;;
+    height: 30px;
+    margin: 15px;
+    border: 2px solid #FFF;
+}
+.section6 .submit button
+{
+    margin-top: 25px;
+    background-color: #FE2B4B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin: 10px;
+    margin-right: 128px;
+}
+.section6 .submit textarea
+{
+    height: 100px;
+}
+.section6 .data .info1, .info2, .info3
+{
+    background-color: #2c3e50;
+    opacity: .7;
+    color: #FFF;
+    display: block;
+    width: 100%;
+    height: 122px;
+    border: 2px solid #FFF; 
+    margin: 0px;
+    margin-top: 5px;
+    padding: 14px;
+}
+
+/* start section7 */
+
+.footer
+{
+  color: #FFF;
+  background-color: #222222;
+  text-align: center;
+    padding: 20px;
+  overflow: hidden;
+}
+.footer img
+{
+  width: 25px;
+  margin: 3px;
+  margin-top: 14px; 
+}
+
+/* end section7 */
+
+
+
+
+
+
+
+
